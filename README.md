@@ -14,7 +14,7 @@ End-to-end analysis of Lambda phage ONT sequencing data, including QC, trimming,
 ```bash
 conda env create -f ont_env.yaml
 conda activate ONTlambda
-
+```
 ### Option 2: Install Tools Individually via Conda
 ```bash
 conda install -c bioconda fastqc
@@ -22,3 +22,29 @@ conda install -c bioconda chopper
 conda install -c bioconda minimap2
 conda install -c bioconda samtools
 conda install -c conda-forge matplotlib
+```
+Usage
+
+1. Run QC on raw reads:
+
+```bash
+scripts/01_QC.sh
+```
+
+2. Trim reads:
+
+```bash 
+scripts/02_TRIMMING.sh
+```
+
+3. Align reads to reference genome:
+
+```bash
+scripts/03_ALIGNMENT.sh
+```
+
+4. Generate coverage plots:
+
+```python
+scripts/04_COVERAGE_DEPTH.py
+```
