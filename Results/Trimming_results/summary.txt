@@ -1,0 +1,10 @@
+PASS	Basic Statistics	Lambda_DNA_ONT_HAC_trimmed.fastq
+FAIL	Per base sequence quality	Lambda_DNA_ONT_HAC_trimmed.fastq
+PASS	Per sequence quality scores	Lambda_DNA_ONT_HAC_trimmed.fastq
+PASS	Per base sequence content	Lambda_DNA_ONT_HAC_trimmed.fastq
+PASS	Per sequence GC content	Lambda_DNA_ONT_HAC_trimmed.fastq
+PASS	Per base N content	Lambda_DNA_ONT_HAC_trimmed.fastq
+WARN	Sequence Length Distribution	Lambda_DNA_ONT_HAC_trimmed.fastq
+PASS	Sequence Duplication Levels	Lambda_DNA_ONT_HAC_trimmed.fastq
+WARN	Overrepresented sequences	Lambda_DNA_ONT_HAC_trimmed.fastq
+PASS	Adapter Content	Lambda_DNA_ONT_HAC_trimmed.fastq
