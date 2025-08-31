@@ -5,7 +5,7 @@ End-to-end analysis of Lambda phage ONT sequencing data, including QC, trimming,
 
 ## Repo Structure
 - `scripts/` : Analysis scripts (bash, Python)
-- `results/` : Example output files
+- `results/` : Output files
 - `ont_env.yaml` : Conda environment for reproducing workflow
 
 ## Installation
